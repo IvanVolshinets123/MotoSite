@@ -17,10 +17,7 @@ header {
 
 .header_item{
     text-decoration: none;
-    color: #000000;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    color: black;
 }
 
 .header_item:hover{
@@ -53,7 +50,6 @@ nav ul li:last-child {
 }
 
 button {
-    font-family: 'Open Sans', sans-serif;
     background-color: transparent;
     color: black;
     padding: 10px 20px;
@@ -62,8 +58,6 @@ button {
     cursor: pointer;
     width: 171px;
     height: 40px;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 button:hover {
@@ -159,55 +153,36 @@ h1 {
     text-align: justify;
 }
 
-.content_why_us{
-    width: 540px;
-    height: 400px;
-    color: #1B1B1B;
+.block{
+    background-color: #FFFFFF;
 }
 
-.catalog-title{
-    text-align: center;
-}
-  
-.card p {
-    font-family: "Rubik", sans-serif;
-    font-size: 16px;
-    padding-bottom: 57px;
-}
-
-.catalog{
+.content_whyus{
+    width: 1280px;
+    height: 394px;
+    border-radius: 20px;
     background-color: #1B1B1B;
+    margin: 0 auto;
+    margin-top: 62px;
+    margin-bottom: 62px;
 }
 
-.stars {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.h1_catalog{
-    color: #000000;
-    font-family: "Rubik", sans-serif;
-    font-size: 16px;
-}
-  
-.star {
-    color: gold;
-}
-  
-.buy-btn {
-    background-color: transparent;
-    border: 1px solid black;
-    color: #000000;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-  
-.buy-btn:hover {
-    background-color: #000000;
+.text_whyus_h1{
+    font-family: "OpenSans", sans-serif;
     color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-left: 77px;
+    margin-top: 44px;
+}
+
+.text_whyus_p{
+    font-family: "OpenSans", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 540px;
+    margin-left: 77px;
 }
 
 .partner{
