@@ -22,6 +22,9 @@ header {
 .header_item {
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
 }
 
 .header_item:hover {
@@ -51,9 +54,12 @@ nav ul li:last-child {
 
 .contact-info a {
   margin-right: 20px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
 }
 
-button {
+.contact-info button {
   background-color: transparent;
   color: black;
   padding: 10px 20px;
@@ -62,15 +68,13 @@ button {
   cursor: pointer;
   width: 171px;
   height: 40px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-button:hover {
+.contact-info button:hover {
   background-color: black;
   color: white;
-}
-
-.img_media {
-  margin-right: 12px;
 }
 
 .main-content {
@@ -98,7 +102,6 @@ button:hover {
 }
 
 .cta {
-  margin-top: 33px;
   background-color: #000000;
   padding: 15px 30px;
   border: none;
@@ -112,6 +115,7 @@ button:hover {
   margin: 0 auto;
   display: block;
   margin-bottom: 200px;
+  margin-top: 33px;
 }
 
 .cta:hover {
@@ -135,8 +139,8 @@ h1 {
   font-size: 64px;
   margin: 0;
   color: #ffffff;
-  padding-top: 59px;
-  padding-bottom: 74px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .content {
@@ -157,49 +161,67 @@ h1 {
   text-align: justify;
 }
 
-.block {
-  background-color: #dddddd;
-}
-
-.block h1 {
-  color: #000000;
-  font-weight: bold;
-}
-
-.text_p {
-  color: #ffffff;
+.text_p1{
   font-size: 21px;
-  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  margin-top: 40px;
 }
 
-.block {
-  text-align: center;
+.text_p{
+  font-size: 21px;
+  color: #FFFFFF;
 }
 
-h1 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 64px;
+.block{
+    color: #ffffff;
 }
 
-.card {
-  display: inline-block;
-  width: 380px;
-  margin: 20px;
-  background-color: white;
-  border-radius: 10px;
-  margin-bottom: 185px;
+.contnet_whyus{
+    background-color: #1B1B1B;
+    width: 1280px;
+    height: 394px;
+    border-radius: 20px;
 }
 
-.card img {
-  width: 143px;
-  height: 143px;
-  height: auto;
-  padding-top: 35px;
+.block{
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
-h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+.contnet_whyus{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.h1_whyus{
+    margin-top: 25px;
+    margin-left: 77px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.p_whyus{
+    margin-left: 77px;
+    max-width: 540px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.button_whyus{
+    margin-left: 77px;
+    border-radius: 7px;
+    background-color: #DA9E2B;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border: none;
+    width: 111px;
+    height: 33px;
 }
 
 .container {
@@ -403,4 +425,107 @@ a {
 
 #controls label {
   transition: opacity 0.2s ease-out;
+}
+
+.contactUs {
+    width: 100%;
+    background-color: #1B1B1B;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.contactUs_content input:not(input[type=checkbox]) {
+    width: 100%;
+    background-color: #1B1B1B;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 5px;
+}
+.contactUs_content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+.contactUs_title{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.contactUs_content p:last-child {
+    color: #DA9E2B;
+}
+.contactUs_text{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.line {
+    border-bottom: 3px solid #DA9E2B;
+    margin-bottom: 10px;
+}
+.about_btn {
+    width: 100%;
+    background-color: #DA9E2B;
+    padding: 10px 15px;
+    color: white;
+    margin: 15px 0;
+    font-size: 18px;
+}
+label a, label{
+    color: white;
+}
+label a {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.footer_container a {
+    display: block !important;
+    width: 200px !important;
+    margin: 0 auto;
+}
+.footer_container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.footer_logo{
+    width: 250px;
+    margin: 50px calc(50% - 125px);
+}
+.footer_subtitle{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer_text{
+    color: white;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+.photo_tg{
+    width: 45px;
+}
+.footer_tg:hover{
+    box-shadow:0 0 10px 5px rgba(255, 255, 255, 0.5);
+    transition: .3s;
+}
+.footer_tg{
+    transition: .3s;
+    margin: 50px calc(50% - 30px);
+    margin-bottom: 0;
+    width: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
 }
