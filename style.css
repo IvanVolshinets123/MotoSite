@@ -161,6 +161,17 @@ h1 {
   text-align: justify;
 }
 
+.text_p1{
+  font-size: 21px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+.text_p{
+  font-size: 21px;
+  color: #FFFFFF;
+}
+
 .block{
     color: #ffffff;
 }
@@ -209,6 +220,8 @@ h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     border: none;
+    width: 111px;
+    height: 33px;
 }
 
 .container {
