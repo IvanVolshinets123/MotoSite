@@ -99,21 +99,15 @@
       </div>
     </div>
     <div class="block" id="2">
-      <h1>Почему мы?</h1>
-      <div class="card">
-        <img src="./image/img_10years.png" alt="10 лет на рынке" />
-        <h2>Более 10 лет на рынке</h2>
-        <p>Наша компания уже более 10 лет радует вас мотоэкипировкой.</p>
-      </div>
-      <div class="card">
-        <img src="./image/img_otzyv.png" alt="Положительные отзывы" />
-        <h2>Положительные отзывы</h2>
-        <p>Большое количество положительных отзывов от клиентов.</p>
-      </div>
-      <div class="card">
-        <img src="./image/image100%.png" alt="100% гарантия качества" />
-        <h2>100% гарантия качества</h2>
-        <p>Наша компания гарантирует вам 100% качество нашего товара.</p>
+      <div class="contnet_whyus">
+        <div class="text_whyus">
+          <h1 class="h1_whyus">Почему вам стоит выбрать<br> MotoMax?</h1>
+          <p class="p_whyus">В мире мотоциклистов первое называется экипировкой, а второе — мотоаксессуарами. Если вы ищете услуги по подбору экипировки (например, вам нужен костюм или шлем), вам следует обратиться в специализированную компанию по продаже мотоэкипировки с сильным портфолио и опытом.</p>
+          <button class="button_whyus">Позвонить</button>
+        </div>
+        <div class="image_whyus">
+          <img src="./image/moto.png" alt="">
+        </div>
       </div>
     </div>
     <section class="catalog">
@@ -353,6 +347,30 @@
             </div>
           </article>
         </div>
+      </div>
+    </div>
+    <div class="contactUs" id="contact">
+      <div class="contactUs_content">
+        
+        <form action="send.php" method="post">
+          <h3 class="contactUs_title">Свяжитесь с нами</h3>
+          <p class="contactUs_text">Напишите нам на почту: <a href="mail-to:motomax@mail.ru"><text>sitecoders@mail.ru</text></a></p>
+          <p class="contactUs_text">Или оставьте заявку, и мы свяжемся с вами в ближайшее время:</p>
+
+          <input name="name" placeholder="Иванов Иван" type="text" required>
+          <div class="line"></div>
+
+          <input name="email" placeholder="ivan@mail.ru" type="email" required>
+          <div class="line"></div>
+          
+          <input name="tel" placeholder="+375 (29) 000 00 00" type="tel" required id="phone-mask">
+          <div class="line"></div>
+          
+          <button type="submit" class="about_btn">Отправить</button>
+
+          <input id="html" type="checkbox" required>
+          <label for="html">Я согласен(а) с <a href="">Политикой конфеденциальности</a></label>
+        </form>
       </div>
     </div>
     <script src="scripts.js"></script>
