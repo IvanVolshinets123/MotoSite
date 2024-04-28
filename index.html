@@ -7,6 +7,23 @@
     <title>MotoMax</title>
   </head>
   <body>
+    <div class="mob__menu_back"></div>
+    <div class="mob_menu">
+        <img id="mob__menu_close" src="./image/close-btn.png" alt="close-btn">
+        <ul>
+            <li><a href="#1">О компании</li></a>
+            <li><a href="#2">Почему мы</li></a>
+            <li><a href="#3">Каталог</li></a>
+            <li><a href="#4">Партнеры</li></a>
+            <li><a href="#5">Связаться</li></a>
+            <li><a href="tel:+375298881222">+375(29)888-12-22</a></li>
+            <li>
+                <a href="https://t.me/MotomaksHD" target="_blank"><img src="./image/tg.png" alt=""></a>
+                <a href="https://vk.com/motoclubbrest" target="_blank"><img src="./image/vk.png" alt=""></a>
+                <a href="https://www.instagram.com/motomaxbrest/" target="_blank"><img src="./image/instagram.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
     <header>
       <div class="logo">
         <img src="./image/header_logo.png" alt="Логотип компании" />
@@ -19,31 +36,34 @@
           <li><a href="#4" class="header_item">Партнеры</a></li>
           <li><a href="#5" class="header_item">Связаться</a></li>
         </ul>
+        <p class="linked_button1">
+          <img id="burger" class="burger_icon" src="./image/burger-menu.png" alt="burgerMenu">
+        </p>
       </nav>
       <div class="contact-info">
-        <a>+375(29)789-12-22</a>
-        <a href=""><img
+        <a href="tel:+375298881222">+375(29)888-12-22</a>
+        <a href="https://t.me/MotomaksHD" target="_blank"><img
           src="./image/tg.png"
           alt="Изображение 1"
           width="40"
           height="40"
           class="img_media"
         /></a>
-        <a href=""><img
+        <a href="https://vk.com/motoclubbrest" target="_blank"><img
           src="./image/vk.png"
           alt="Изображение 2"
           width="40"
           height="40"
           class="img_media"
         /></a>
-        <a href=""><img
+        <a href="https://www.instagram.com/motomaxbrest/" target="_blank"><img
           src="./image/instagram.png"
           alt="Изображение 3"
           width="40"
           height="40"
           class="img_media"
         /></a>
-        <button>Связаться</button>
+        <a href="#5"><button>Связаться</button></a>
       </div>
     </header>
     <div class="main-content">
@@ -58,7 +78,7 @@
         безопасность и<br />
         скидка 20% на первый заказ.
       </p>
-      <button class="cta">Узнать подробнее</button>
+      <a href="#5"><button class="cta">Узнать подробнее</button></a>
     </div>
     <div class="about_us" id="1">
       <div class="container_first">
@@ -80,14 +100,14 @@
               безопасности.
             </p>
             <p class="text_p">
-              С каждым годом Гонка Стилей становилась все более узнаваемой, их
+              С каждым годом MOTOMAX становилась все более узнаваемой, их
               коллекции становились популярными среди мотоциклистов по всей
               стране. Они не только предлагали качественную мотоэкипировку, но и
               поддерживали сообщество мотоциклистов, организуя мероприятия и
               спонсируя гонки.
             </p>
-            <p class="text_p">
-              Сегодня Гонка Стилей - это известный бренд в мире мотоэкипировки,
+            <p class="text_p3">
+              Сегодня MOTOMAX - это известный бренд в мире мотоэкипировки,
               предлагающий широкий ассортимент товаров для различных стилей езды
               и типов мотоциклов. Их продукция остается верной своим корням,
               сочетая в себе стиль, безопасность и инновационные технологии, и
@@ -103,14 +123,14 @@
         <div class="text_whyus">
           <h1 class="h1_whyus">Почему вам стоит выбрать<br> MotoMax?</h1>
           <p class="p_whyus">В мире мотоциклистов первое называется экипировкой, а второе — мотоаксессуарами. Если вы ищете услуги по подбору экипировки (например, вам нужен костюм или шлем), вам следует обратиться в специализированную компанию по продаже мотоэкипировки с сильным портфолио и опытом.</p>
-          <button class="button_whyus">Позвонить</button>
+          <a href="tel:+375298881222"><button class="button_whyus">Позвонить</button></a>
         </div>
         <div class="image_whyus">
-          <img src="./image/moto.png" alt="">
+          <img src="./image/moto.png" alt="" class="img_block">
         </div>
       </div>
     </div>
-    <section class="catalog">
+    <section class="catalog" id="3">
       <div class="container">
         <h1 class="catalog_title">Каталог</h1>
         <div class="cards">
@@ -130,8 +150,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="image/shlem_img2.png" alt="card-image">
+            <h2 class="card-title">Шлем LS2 FF353 RAPID II PIRATES</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -145,8 +165,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="image/shlem_img3.png" alt="card-image">
+            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID WHITE</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -160,8 +180,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="image/shlem_img4.png" alt="card-image">
+            <h2 class="card-title">Шлем LS2 FF353 RAPID SINGLE MONO</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -175,8 +195,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/kurtka_img1.png" alt="card-image">
+            <h2 class="card-title">Мотокуртка мужская кожаная FM3</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -190,8 +210,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/kurtka_img2.png" alt="card-image">
+            <h2 class="card-title">MCP Мотокуртка мужская Argon (серая/Grey)</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -205,8 +225,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/kurtka_img3.png" alt="card-image">
+            <h2 class="card-title">MCP Мотокуртка женская Argon</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -220,8 +240,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/kurtka_img4.png" alt="card-image">
+            <h2 class="card-title">MCP Мотокуртка мужская Flash</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -235,8 +255,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/perchatki1.png" alt="card-image">
+            <h2 class="card-title">Мотоперчатки Husar ZR Race Black</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -250,8 +270,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/perchatki2.png" alt="card-image">
+            <h2 class="card-title">Мотоперчатки Husar Iron</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -265,8 +285,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/perchatki3.png" alt="card-image">
+            <h2 class="card-title">Мотоперчатки Husar Impact</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -280,23 +300,8 @@
             </div>
           </div>
           <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
-            <div class="raiting">
-              <img src="image/star.png" alt="icon">
-              <img src="image/star.png" alt="icon">
-              <img src="image/star.png" alt="icon">
-              <img src="image/star.png" alt="icon">
-              <img src="image/star.png" alt="icon">
-            </div>
-            <div class="card-content">
-              <p class="card-price">312.00 р.</p>
-              <div class="card-btn">Купить</div>
-            </div>
-          </div>
-          <div class="catalog-card">
-            <img src="image/shlem_img1.png" alt="card-image">
-            <h2 class="card-title">Шлем LS2 FF353 RAPID II SOLID BLACK</h2>
+            <img src="./image/perchatki4.png" alt="card-image">
+            <h2 class="card-title">Мотоперчатки женские FM TERRA</h2>
             <div class="raiting">
               <img src="image/star.png" alt="icon">
               <img src="image/star.png" alt="icon">
@@ -349,7 +354,7 @@
         </div>
       </div>
     </div>
-    <div class="contactUs" id="contact">
+    <div class="contactUs" id="5">
       <div class="contactUs_content">
         
         <form action="send.php" method="post">
@@ -375,10 +380,10 @@
     </div>
     <footer>
       <div class="footer_container">
-        <img src="img/logo.png" class="footer_logo">
+        <img src="./image/header_logo.png" class="footer_logo">
         <h3 class="footer_subtitle">Актуальные новости и экспертные статьи</h3>
-        <p class="footer_text">Важная для бизнеса информация от специалистов MANUFACT в сфере дизайна, разработки и рекламы в нашем Телеграм-канале. Подписывайтесь, чтобы ничего не пропустить.</p>
-        <a href="https://www.instagram.com/" target="_blank">
+        <p class="footer_text">Подписывайтесь, чтобы быть в курсе всех новостей и трендов в мире мотоэкипировки! Не упустите возможность быть в курсе последних обновлений. Присоединяйтесь к нам прямо сейчас!</p>
+        <a href="https://t.me/MotomaksHD" target="_blank">
           <img class="footer_tg" src="./image/tg_footer.png">
         </a>
       </div>
